@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\catagories;
 use App\product;
 
+
+
 class ProductListController extends Controller
 {
     /**
@@ -15,6 +17,7 @@ class ProductListController extends Controller
      */
     public function index($id)
     {
+
         $items= catagories::all();
         $products = product::where('CatagoriesID',$id)->get();
         $catagory = catagories::where('CatagoriesID',$id)->get();

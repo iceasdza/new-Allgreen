@@ -20,7 +20,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Shop - 3 Columns Left Sidebar | Canvas</title>
+		<title>ALL GREEN Technology</title>
 
 </head>
 

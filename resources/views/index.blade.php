@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
+
 <head>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -7,7 +8,8 @@
 
 	<!-- Stylesheets
 	============================================= -->
-	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic"
+	 rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
@@ -21,7 +23,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Home - One Page Layout | Canvas</title>
+	<title>ALL GREEN Technology</title>
 
 </head>
 
@@ -39,26 +41,34 @@
 
 				<div class="swiper-container swiper-parent">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide dark" style="background-image: url('images/slider/swiper/1.jpg');">
+						<div class="swiper-slide" style="background-image: url('images/slider/swiper/7.jpg');">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
-									<h2 data-caption-animate="fadeInUp">All green</h2>
-									<p data-caption-animate="fadeInUp" data-caption-delay="200">Create just what you need for your Perfect Website. Choose from a wide range of Elements &amp; simply put them on our Canvas.</p>
+									<h2 data-caption-animate="fadeInUp" style="color:#008020">All green</h2>
+									<p data-caption-animate="fadeInUp" data-caption-delay="200" style="color:#006622">ให้เราดูแลคุณด้วยการให้บริการอย่างมีประสิทธิภาพ ด้วยความจริงใจ</p>
 								</div>
 							</div>
 						</div>
-						<div class="swiper-slide" style="background-image: url('images/slider/swiper/3.jpg'); background-position: center top;">
+						<div class="swiper-slide" style="background-image: url('images/slider/swiper/8.jpg'); background-position: center top;">
 							<div class="container clearfix">
 								<div class="slider-caption">
 									<h2 data-caption-animate="fadeInUp">Great Performance</h2>
-									<p data-caption-animate="fadeInUp" data-caption-delay="200">You'll be surprised to see the Final Results of your Creation &amp; would crave for more.</p>
+									<p data-caption-animate="fadeInUp" data-caption-delay="200">บริการที่มีคุณภาพและได้รับความไว้วางใจจากลูกค้ามากมาย จากการบริการที่มีคุณภาพของเรา</p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
-					<div id="slider-arrow-right"><i class="icon-angle-right"></i></div>
-					<div id="slide-number"><div id="slide-number-current"></div><span>/</span><div id="slide-number-total"></div></div>
+					<div id="slider-arrow-left">
+						<i class="icon-angle-left"></i>
+					</div>
+					<div id="slider-arrow-right">
+						<i class="icon-angle-right"></i>
+					</div>
+					<div id="slide-number">
+						<div id="slide-number-current"></div>
+						<span>/</span>
+						<div id="slide-number-total"></div>
+					</div>
 				</div>
 
 			</div>
@@ -73,35 +83,64 @@
 
 				<div class="container clearfix">
 
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+					<div id="primary-menu-trigger">
+						<i class="icon-reorder"></i>
+					</div>
 
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/allgreenlogo.png" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
-					</div><!-- #logo end -->
+						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png">
+							<img src="images/allgreenlogo.png" alt="Canvas Logo">
+						</a>
+						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png">
+							<img src="images/logo@2x.png" alt="Canvas Logo">
+						</a>
+					</div>
+					<!-- #logo end -->
 
 					<!-- Primary Navigation
 					============================================= -->
 					<nav id="primary-menu">
 
 						<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1500">
-							<li><a href="#" data-href="#home"><div>Home</div></a></li>
-							<li><a href="#" data-href="#section-about"><div>About</div></a></li>
-							<li><a href="#" data-href="#section-team"><div>Product</div></a></li>
-							<li><a href="#" data-href="#section-services"><div>Services</div></a></li>
-							<li><a href="#" data-href="#section-contact"><div>Contact</div></a></li>
+							<li>
+								<a href="#" data-href="#home">
+									<div>Home</div>
+								</a>
+							</li>
+							<li>
+								<a href="#" data-href="#section-about">
+									<div>About</div>
+								</a>
+							</li>
+							<li>
+								<a href="#" data-href="#section-team">
+									<div>Product</div>
+								</a>
+							</li>
+							<li>
+								<a href="#" data-href="#section-services">
+									<div>Services</div>
+								</a>
+							</li>
+							<li>
+								<a href="#" data-href="#section-contact">
+									<div>Contact</div>
+								</a>
+							</li>
 						</ul>
 
 
-					</nav><!-- #primary-menu end -->
+					</nav>
+					<!-- #primary-menu end -->
 
 				</div>
 
 			</div>
 
-		</header><!-- #header end -->
+		</header>
+		<!-- #header end -->
 
 		<div class="clear"></div>
 
@@ -116,18 +155,23 @@
 					<div class="container clearfix">
 
 						<div class="heading-block center">
-							<h2>We are <span>ALL GREEN</span></h2>
+							<h2>We are
+								<span>ALL GREEN</span>
+							</h2>
 							<span>TECHNOLOGY.</span>
 						</div>
 
 						<div class="col_one_third nobottommargin">
 							<div class="feature-box media-box">
 								<div class="fbox-media">
-									<img src="images/services/1.jpg" alt="Why choose Us?">
+									<img src="img/241624.jpg" alt="Why choose Us?">
 								</div>
 								<div class="fbox-desc">
-									<h3>Why choose Us.<span class="subtitle">Because we are Reliable.</span></h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
+									<h3>ทำไมต้องเลือกเรา ?
+										<span class="subtitle">เพราะว่าเรา ...</span>
+									</h3>
+									<p>บริษัทมุ่งเน้นการจัดจำหน่ายและให้บริการด้านการขายแบบครบวงจรด้วยสินค้า คุณภาพสูง โดยทีมงานวิศวกรที่พรั่งพร้อมด้วยประสบการณ์ความรู้และ
+										ความสามารถ เพื่อให้บริการลูกค้า โดยเราได้คัดสรรผลิตภัณฑ์ที่มีคุณภาพ เหมาะสมกับราคาและความต้องการของลูกค้าในทุกกลุ่มตลาด</p>
 								</div>
 							</div>
 						</div>
@@ -135,11 +179,15 @@
 						<div class="col_one_third nobottommargin">
 							<div class="feature-box media-box">
 								<div class="fbox-media">
-									<img src="images/services/2.jpg" alt="Why choose Us?">
+									<img src="img/241625.jpg" alt="Why choose Us?">
 								</div>
 								<div class="fbox-desc">
-									<h3>Our Mission.<span class="subtitle">To Redefine your Brand.</span></h3>
-									<p>Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum molestias quo.</p>
+									<h3>เป้าหมายของเรา
+										<span class="subtitle">ความต้องการของท่าน คืองานของเรา</span>
+									</h3>
+									<p>เมื่อท่าน ต้องการสินค้าในกลุ่ม ขอให้ติดต่อเรา All Green Technologyเป็นผู้นำในการ จัดหา การออกแบบติดตั้งให้คำปรึกษาและให้บริการทุกรูปแบบเพื่อสนับสนุน
+										ให้ผู้ใช้บริการนั้นสามาถใช้งานในผลิตภัณฑ์ อย่างมีประสิทธิภาพและคุ้มค่ากับ การลงทุนอย่างสูงสุด รวมถึงการเตรียมความพร้อมในการขายผลิตภัณฑ์เพื่อ
+										ธุรกิจของท่านเติบโตอย่างมั่นคงต่อไปในอนาคต</p>
 								</div>
 							</div>
 						</div>
@@ -147,11 +195,16 @@
 						<div class="col_one_third nobottommargin col_last">
 							<div class="feature-box media-box">
 								<div class="fbox-media">
-									<img src="images/services/3.jpg" alt="Why choose Us?">
+									<img src="img/241619.jpg" alt="Why choose Us?">
 								</div>
 								<div class="fbox-desc">
-									<h3>What we Do.<span class="subtitle">Make our Customers Happy.</span></h3>
-									<p>Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.</p>
+									<h3>พวกเราทำอะไร
+										<span class="subtitle">ในปัจจุบันเทคโนโลยี</span>
+									</h3>
+									<p>ได้เริ่มเข้ามามีบทบาทในการใช้งานของเราเพิ่มมากขึ้นอย่างต่อเนื่อง GREEN เทคโนโลยี สามารถลดค่าใช้จ่ายต่างๆ ไม่ว่าจะเป็น
+										ค่าพลังงานไฟฟ้าที่ใช้งานหรือค่าบำรุงรักษารวมถึงระบบ รักษาความปลอดภัยให้กับองค์กรธุรกิจปัจจุบันเทคโนโลยีแนวใหม่
+										ช่วยเพิ่มความสามารถในการบริหารจัดการ ให้กับผู้ดูแลระบบให้ง่ายยิ่งขึ้นด้วยการดูแลแบบศูนย์กลาง และยังช่วยสามารถกำหนดโครงสร้างพื้นฐาน
+										ได้อย่างมีประสิทธิภาพ</p>
 								</div>
 							</div>
 						</div>
@@ -160,75 +213,61 @@
 
 					</div>
 
-					<div class="section dark parallax nobottommargin" style="padding: 80px 0;background-image: url('images/parallax/1.jpg');" data-stellar-background-ratio="0.3">
-
-						<div class="container clearfix">
-
-							<div class="col_one_fourth nobottommargin center" data-animate="bounceIn">
-								<i class="i-plain i-xlarge divcenter nobottommargin icon-code"></i>
-								<div class="counter counter-lined"><span data-from="100" data-to="846" data-refresh-interval="50" data-speed="2000"></span>K+</div>
-								<h5>Lines of Codes</h5>
-							</div>
-
-							<div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="200">
-								<i class="i-plain i-xlarge divcenter nobottommargin icon-magic"></i>
-								<div class="counter counter-lined"><span data-from="3000" data-to="15360" data-refresh-interval="100" data-speed="2500"></span>+</div>
-								<h5>KBs of HTML Files</h5>
-							</div>
-
-							<div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="400">
-								<i class="i-plain i-xlarge divcenter nobottommargin icon-file-text"></i>
-								<div class="counter counter-lined"><span data-from="10" data-to="386" data-refresh-interval="25" data-speed="3500"></span>*</div>
-								<h5>No. of Templates</h5>
-							</div>
-
-							<div class="col_one_fourth nobottommargin center col_last" data-animate="bounceIn" data-delay="600">
-								<i class="i-plain i-xlarge divcenter nobottommargin icon-time"></i>
-								<div class="counter counter-lined"><span data-from="60" data-to="1200" data-refresh-interval="30" data-speed="2700"></span>+</div>
-								<h5>Hours of Coding</h5>
-							</div>
-
-						</div>
-
-					</div>
-
 				</section>
-
+				<div class="divider">
+					<i class="icon-circle"></i>
+				</div>
 				<section id="section-team" class="page-section topmargin-lg">
 
 					<div class="heading-block center">
-						<a href="/catagoryID=4"><h2><span>View all product</span></h2></a>
+						<a href="/catagoryID=1">
+							<h2>
+								<span>View all product</span>
+							</h2>
+						</a>
 						<span>CCTV camera , speeddome , etc .</span>
 					</div>
 					<!-- start -->
-					<div class="owl-carousel image-carousel carousel-widget" data-margin="20" data-nav="true" data-pagi="false" data-items-xxs="2" data-items-xs="3" data-items-sm="4" data-items-md="5">
-						@foreach($products as $product)
-						<div class="owl-item active" style="width: 442.25px;"><div class="oc-item">
-							<div class="iportfolio">
-								<div class="portfolio-image">
-									<a href="#">
-										<img src="{{$product->path}}" alt="{{$product->productName}}">
-									</a>
-									<div class="portfolio-overlay">
-										<a href="{{$product->path}}" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-										<a href="/catagoriesID={{$product->CatagoriesID}}/productId={{$product->productID}}" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+
+
+					<div class="content-wrap">
+						<div class="container clearfix">
+							<div id="related-portfolio" class="owl-carousel portfolio-carousel carousel-widget" data-margin="30" data-nav="false" data-autoplay="5000"
+							 data-items-xxs="1" data-items-xs="2" data-items-sm="3" data-items-lg="4">
+								@foreach($products as $product)
+								<div class="oc-item">
+									<div class="iportfolio">
+										<div class="portfolio-image">
+											<a href="portfolio-single.html">
+												<img src="{{$product->path}}" alt="Open Imagination">
+											</a>
+											<div class="portfolio-overlay">
+												<a href="/catagoriesID={{$product->CatagoriesID}}/productId={{$product->productID}}" class="right-icon">
+													<i class="icon-line-ellipsis"></i>
+												</a>
+											</div>
+										</div>
+										<div class="portfolio-desc">
+											<h3>
+												<a href="/catagoriesID={{$product->CatagoriesID}}/productId={{$product->productID}}">{{$product->productName}}</a>
+											</h3>
+										</div>
 									</div>
 								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/catagoriesID={{$product->CatagoriesID}}/productId={{$product->productID}}">Locked Steel Gate</a></h3>
-								</div>
+								@endforeach
+
 							</div>
 						</div>
 					</div>
-						@endforeach
-
-							
-						
-					</div>
 					<!-- end -->
-					<div class="section parallax" style="background-image: url('images/parallax/3.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.3">
+
+
+
+
+
+					<div class="section parallax" style="background-image: url('images/parallax/parallax2.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.3">
 						<div class="heading-block center nobottomborder nobottommargin">
-							<h2>"Everything is designed, but some things are designed well."</h2>
+							<h2>"Quality for life."</h2>
 						</div>
 					</div>
 
@@ -238,15 +277,20 @@
 
 					<div class="heading-block center bottommargin-lg">
 						<h2>Services</h2>
-						<span>List of some features included in Canvas.</span>
+						<span> ALL GREEN TECHNOLOGY ให้ความสำคัญกับการให้บริการกับลูกค้าทั้งการให้บริการหลังการขาย และการให้ข้อมูลเพื่อการตัดสินใจเลือกซื้อสินค้า
+							เราพร้อมให้คำแนะนำ ด้านพลังงานทดแทน,งานออกแบบระบบ ไฟฟ้าอาคาร,โรงงานระบบแสงสว่าง,ระบบปรับอากาศรวมถึงระบบความปลอดภัยทุกประเภทฯ
+							และตอบคำถามทุกคำถามของท่าน ติดต่อเรา
+						</span>
 					</div>
-
+					{{--
 					<div class="container clearfix">
 
 						<div class="col_one_third">
 							<div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn">
 								<div class="fbox-icon">
-									<a href="#"><i class="icon-phone2"></i></a>
+									<a href="#">
+										<i class="icon-phone2"></i>
+									</a>
 								</div>
 								<h3>Responsive Layout</h3>
 								<p>Powerful Layout with Responsive functionality that can be adapted to any screen size.</p>
@@ -256,7 +300,9 @@
 						<div class="col_one_third">
 							<div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn" data-delay="200">
 								<div class="fbox-icon">
-									<a href="#"><i class="icon-eye"></i></a>
+									<a href="#">
+										<i class="icon-eye"></i>
+									</a>
 								</div>
 								<h3>Retina Ready Graphics</h3>
 								<p>Looks beautiful &amp; ultra-sharp on Retina Displays with Retina Icons, Fonts &amp; Images.</p>
@@ -266,7 +312,9 @@
 						<div class="col_one_third col_last">
 							<div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn" data-delay="400">
 								<div class="fbox-icon">
-									<a href="#"><i class="icon-star2"></i></a>
+									<a href="#">
+										<i class="icon-star2"></i>
+									</a>
 								</div>
 								<h3>Powerful Performance</h3>
 								<p>Optimized code that are completely customizable and deliver unmatched fast performance.</p>
@@ -278,7 +326,9 @@
 						<div class="col_one_third">
 							<div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn" data-delay="600">
 								<div class="fbox-icon">
-									<a href="#"><i class="icon-video"></i></a>
+									<a href="#">
+										<i class="icon-video"></i>
+									</a>
 								</div>
 								<h3>HTML5 Video</h3>
 								<p>Canvas provides support for Native HTML5 Videos that can be added to a Full Width Background.</p>
@@ -288,7 +338,9 @@
 						<div class="col_one_third">
 							<div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn" data-delay="800">
 								<div class="fbox-icon">
-									<a href="#"><i class="icon-params"></i></a>
+									<a href="#">
+										<i class="icon-params"></i>
+									</a>
 								</div>
 								<h3>Parallax Support</h3>
 								<p>Display your Content attractively using Parallax Sections that have unlimited customizable areas.</p>
@@ -298,7 +350,9 @@
 						<div class="col_one_third col_last">
 							<div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn" data-delay="1000">
 								<div class="fbox-icon">
-									<a href="#"><i class="icon-fire"></i></a>
+									<a href="#">
+										<i class="icon-fire"></i>
+									</a>
 								</div>
 								<h3>Endless Possibilities</h3>
 								<p>Complete control on each &amp; every element that provides endless customization possibilities.</p>
@@ -310,7 +364,9 @@
 						<div class="col_one_third nobottommargin">
 							<div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn" data-delay="1200">
 								<div class="fbox-icon">
-									<a href="#"><i class="icon-bulb"></i></a>
+									<a href="#">
+										<i class="icon-bulb"></i>
+									</a>
 								</div>
 								<h3>Light &amp; Dark Color Schemes</h3>
 								<p>Change your Website's Primary Scheme instantly by simply adding the dark class to the body.</p>
@@ -320,7 +376,9 @@
 						<div class="col_one_third nobottommargin">
 							<div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn" data-delay="1400">
 								<div class="fbox-icon">
-									<a href="#"><i class="icon-heart2"></i></a>
+									<a href="#">
+										<i class="icon-heart2"></i>
+									</a>
 								</div>
 								<h3>Boxed &amp; Wide Layouts</h3>
 								<p>Stretch your Website to the Full Width or make it boxed to surprise your visitors.</p>
@@ -330,7 +388,9 @@
 						<div class="col_one_third nobottommargin col_last">
 							<div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn" data-delay="1600">
 								<div class="fbox-icon">
-									<a href="#"><i class="icon-note"></i></a>
+									<a href="#">
+										<i class="icon-note"></i>
+									</a>
 								</div>
 								<h3>Extensive Documentation</h3>
 								<p>We have covered each &amp; everything in our Documentation including Videos &amp; Screenshots.</p>
@@ -339,66 +399,15 @@
 
 						<div class="clear"></div>
 
-					</div>
+					</div> --}}
 
-					<div class="divider divider-short divider-center topmargin-lg"><i class="icon-star3"></i></div>
-
-				</section>
-
-				
-
-				<section id="section-testimonials" class="page-section section parallax dark" style="background-image: url('images/about/me-parallax.jpg'); padding: 200px 0;" data-stellar-background-ratio="0.3">
-
-					<div class="container clearfix">
-
-						<div class="col_half nobottommargin">&nbsp;</div>
-
-						<div class="col_half nobottommargin col_last">
-
-							<div class="heading-block center">
-								<h4>What Clients say?</h4>
-								<span>Some of our Clients love us &amp; so we do!</span>
-							</div>
-
-							<div class="fslider testimonial testimonial-full nobgcolor noborder noshadow nopadding" data-arrows="false">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide">
-											<div class="testi-content">
-												<p>Similique fugit repellendus expedita excepturi iure perferendis provident quia eaque. Repellendus, vero numquam?</p>
-												<div class="testi-meta">
-													Steve Jobs
-													<span>Apple Inc.</span>
-												</div>
-											</div>
-										</div>
-										<div class="slide">
-											<div class="testi-content">
-												<p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
-												<div class="testi-meta">
-													Collis Ta'eed
-													<span>Envato Inc.</span>
-												</div>
-											</div>
-										</div>
-										<div class="slide">
-											<div class="testi-content">
-												<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
-												<div class="testi-meta">
-													John Doe
-													<span>XYZ Inc.</span>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
+					<div class="divider divider-short divider-center topmargin-lg">
+						<i class="icon-star3"></i>
 					</div>
 
 				</section>
+
+
 
 				<section id="section-contact" class="page-section">
 
@@ -423,62 +432,68 @@
 
 								<form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/sendemail.php" method="post">
 
-								<div class="form-process"></div>
+									<div class="form-process"></div>
 
-								<div class="col_one_third">
-									<label for="template-contactform-name">Name <small>*</small></label>
-									<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
-								</div>
+									<div class="col_one_third">
+										<label for="template-contactform-name">Name
+											<small>*</small>
+										</label>
+										<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required"
+										/>
+									</div>
 
-								<div class="col_one_third">
-									<label for="template-contactform-email">Email <small>*</small></label>
-									<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
-								</div>
+									<div class="col_one_third">
+										<label for="template-contactform-email">Email
+											<small>*</small>
+										</label>
+										<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control"
+										/>
+									</div>
 
-								<div class="col_one_third col_last">
-									<label for="template-contactform-phone">Phone</label>
-									<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
-								</div>
+									<div class="col_one_third col_last">
+										<label for="template-contactform-phone">Phone</label>
+										<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
+									</div>
 
-								<div class="clear"></div>
+									<div class="clear"></div>
 
-								<div class="col_two_third">
-									<label for="template-contactform-subject">Subject <small>*</small></label>
-									<input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control" />
-								</div>
+									<div class="col_two_third">
+										<label for="template-contactform-subject">Subject
+											<small>*</small>
+										</label>
+										<input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control"
+										/>
+									</div>
 
-								<div class="col_one_third col_last">
-									<label for="template-contactform-service">Services</label>
-									<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
-										<option value="">-- Select One --</option>
-										<option value="Wordpress">Wordpress</option>
-										<option value="PHP / MySQL">PHP / MySQL</option>
-										<option value="HTML5 / CSS3">HTML5 / CSS3</option>
-										<option value="Graphic Design">Graphic Design</option>
-									</select>
-								</div>
 
-								<div class="clear"></div>
 
-								<div class="col_full">
-									<label for="template-contactform-message">Message <small>*</small></label>
-									<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
-								</div>
+									<div class="clear"></div>
 
-								<div class="col_full hidden">
-									<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
-								</div>
+									<div class="col_full">
+										<label for="template-contactform-message">Message
+											<small>*</small>
+										</label>
+										<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6"
+										 cols="30"></textarea>
+									</div>
 
-								<div class="col_full">
-									<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
-								</div>
+									<div class="col_full hidden">
+										<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control"
+										/>
+									</div>
 
-							</form>
+									<div class="col_full">
+										<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit"
+										 value="submit">Send Message</button>
+									</div>
+
+								</form>
+
+							</div>
+
 
 						</div>
-
-
-						</div><!-- Contact Form End -->
+						<!-- Contact Form End -->
 
 						<!-- Google Map
 						============================================= -->
@@ -487,7 +502,8 @@
 							<section id="google-map" class="gmap" style="height: 410px;"></section>
 
 
-						</div><!-- Google Map End -->
+						</div>
+						<!-- Google Map End -->
 
 						<!-- Contact Info
 						============================================= -->
@@ -496,40 +512,32 @@
 							<div class="col_one_fourth">
 								<div class="feature-box fbox-center fbox-bg fbox-plain">
 									<div class="fbox-icon">
-										<a href="#"><i class="icon-map-marker2"></i></a>
+										<a href="#">
+											<i class="icon-map-marker2"></i>
+										</a>
 									</div>
-									<h3>Our Headquarters<span class="subtitle">Melbourne, Australia</span></h3>
+									<h3>Our Headquarters
+										<span class="subtitle">49/146 Moo 5 Phtthamonthon Sai 4 Rd. Thaveewattana, Thaveewattana Bangkok 10210</span>
+									</h3>
 								</div>
 							</div>
 
 							<div class="col_one_fourth">
 								<div class="feature-box fbox-center fbox-bg fbox-plain">
 									<div class="fbox-icon">
-										<a href="#"><i class="icon-phone3"></i></a>
+										<a href="#">
+											<i class="icon-phone3"></i>
+										</a>
 									</div>
-									<h3>Speak to Us<span class="subtitle">(123) 456 7890</span></h3>
+									<h3>Speak to Us
+										<span class="subtitle">02-814-0066</span>
+									</h3>
 								</div>
 							</div>
 
-							<div class="col_one_fourth">
-								<div class="feature-box fbox-center fbox-bg fbox-plain">
-									<div class="fbox-icon">
-										<a href="#"><i class="icon-skype2"></i></a>
-									</div>
-									<h3>Make a Video Call<span class="subtitle">CanvasOnSkype</span></h3>
-								</div>
-							</div>
 
-							<div class="col_one_fourth col_last">
-								<div class="feature-box fbox-center fbox-bg fbox-plain">
-									<div class="fbox-icon">
-										<a href="#"><i class="icon-twitter2"></i></a>
-									</div>
-									<h3>Follow on Twitter<span class="subtitle">2.3M Followers</span></h3>
-								</div>
-							</div>
-
-						</div><!-- Contact Info End -->
+						</div>
+						<!-- Contact Info End -->
 
 					</div>
 
@@ -537,31 +545,38 @@
 
 			</div>
 
-		</section><!-- #content end -->
+		</section>
+		<!-- #content end -->
 
 		<!-- Footer
 		============================================= -->
 		<footer id="footer" class="dark">
 			<div id="copyrights">
-				
-								<div class="container clearfix">
-				
-									<div class="col_half">
-										Copyrights ©2011 ALLGREEN Technology Co.,Ltd.<br>
-									</div>
-				
-									<div class="col_half col_last tright">
-										<div class="clear"></div>
-				
-										<i class="icon-envelope2"></i> Email : info@allgreenthai.com <span class="middot">&middot;</span> <i class="icon-headphones"></i>  02-814-0066
-									</div>
-				
-								</div>
-				
-							</div><!-- #copyrights end -->
-		</footer><!-- #footer end -->
 
-	</div><!-- #wrapper end -->
+				<div class="container clearfix">
+
+					<div class="col_half">
+						Copyrights ©2011 ALLGREEN Technology Co.,Ltd.
+						<br>
+					</div>
+
+					<div class="col_half col_last tright">
+						<div class="clear"></div>
+
+						<i class="icon-envelope2"></i> Email : info@allgreenthai.com
+						<span class="middot">&middot;</span>
+						<i class="icon-headphones"></i> 02-814-0066
+					</div>
+
+				</div>
+
+			</div>
+			<!-- #copyrights end -->
+		</footer>
+		<!-- #footer end -->
+
+	</div>
+	<!-- #wrapper end -->
 
 	<!-- Go To Top
 	============================================= -->
@@ -580,7 +595,6 @@
 	<script type="text/javascript" src="js/jquery.gmap.js"></script>
 
 	<script type="text/javascript">
-
 		jQuery('#google-map').gMap({
 
 			address: 'Melbourne, Australia',
@@ -611,4 +625,5 @@
 	</script>
 
 </body>
+
 </html>

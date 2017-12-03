@@ -20,7 +20,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Shop - 3 Columns Left Sidebar | Canvas</title>
+	<title>ALL GREEN Technology</title>
 
 </head>
 
@@ -36,8 +36,8 @@
 						<!-- Logo
 						============================================= -->
 						<div id="logo">
-							<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/allgreenlogo.png" alt="Canvas Logo"></a>
-							<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+							<a href="/" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/allgreenlogo.png" alt="Canvas Logo"></a>
+							<a href="/" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
 						</div><!-- #logo end -->
 	
 						<!-- Primary Navigation
@@ -58,7 +58,7 @@
 			</header>
 	<!-- Document Wrapper
 	============================================= -->
-	<div id="wrapper" class="clearfix">
+	<div id="wrapper" class="clearfix" >
 
 		<!-- Header
 		============================================= -->
@@ -66,10 +66,10 @@
 
 		<!-- Page Title
 		============================================= -->
-		<section id="page-title">
+		<section id="page-title" style="background-color: #1ABC9C">
 
-			<div class="container clearfix">
-				<h1>
+			<div class="container clearfix" >
+				<h1 style="color:white">
 					@foreach($catagory as $deatail)
 					{{$deatail->catagoriesName}}
 					@endforeach
@@ -100,7 +100,7 @@
 										<div class="fslider" data-arrows="false">
 											<div class="flexslider">
 												<div class="slider-wrap">
-													<div class="slide"><a href="#"><img src="{{$product->path}}" alt="{{$product->productName}}"></a></div>
+													<div class="slide" ><a href="/catagoriesID={{$product->CatagoriesID}}/productId={{$product->productID}}" ><img src="{{$product->path}}" alt="{{$product->productName}}"></a></div>
 												</div>
 											</div>
 										</div>
@@ -108,9 +108,10 @@
 								</div>
 									</div>
 									<div class="product-desc center">
-										<div class="product-title"><h3><a href="/catagoriesID={{$product->CatagoriesID}}/productId={{$product->productID}}">{{$product->productName}}</a></h3></div>
+										<div class="product-title"><h5><a href="/catagoriesID={{$product->CatagoriesID}}/productId={{$product->productID}}">{{$product->productName}}</a></h5></div>
 							
 									</div>
+									<hr>
 								</div>
 
 							@endforeach
@@ -129,6 +130,7 @@
 								<ul>
 									@foreach($items as $item)
 									<li><a href="/catagoryID={{$item->CatagoriesID}}">{{$item->catagoriesName}}</a></li>
+									<hr>
 									@endforeach
 								</ul>
 

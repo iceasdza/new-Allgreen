@@ -20,7 +20,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Shop Single | Canvas</title>
+		<title>ALL GREEN Technology</title>
 
 </head>
 
@@ -34,7 +34,6 @@
 		============================================= -->
 		<section id="page-title">
 			@foreach($products as $product)
-			
 			<div class="container clearfix">
 				<h1>{{$product->productName}}</h1>
 				<ol class="breadcrumb">

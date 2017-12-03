@@ -38,7 +38,23 @@ class ProducDetailUserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $product = new product;
+        if($request->hasFile('img')){
+            $img = $request->file('img');
+            $catagoryID = $request->input('catagoryID');
+            $productName = $request->input('prodName');
+            $proDesc = $request->input('prodDesc');
+            $imgname = $img->getClientOriginalName();
+            $request->file('img')->move($catagoryID,$imgname);
+            $product->path = "/".$catagoryID."/".$imgname;
+            $product->productName = $productName;
+            $product->CatagoriesID = $catagoryID;
+            $product->productDes = $proDesc;
+            $product->save();
+            return  redirect('/admin/catagoriesID='.$catagoryID);
+           
+            
+        }
     }
 
     /**
