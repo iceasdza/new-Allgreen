@@ -52,11 +52,13 @@ class ProductController extends Controller
             $catagoryID = $request->input('catagoryID');
             $productName = $request->input('prodName');
             $proDesc = $request->input('prodDesc');
+            $function = $request->input('function');
             $imgname = $img->getClientOriginalName();
             $request->file('img')->move($catagoryID,$imgname);
             $product->path = "/".$catagoryID."/".$imgname;
             $product->productName = $productName;
             $product->CatagoriesID = $catagoryID;
+            $product->function = $function;
             $product->productDes = $proDesc;
             $product->save();
             return  redirect('/admin/catagoriesID='.$catagoryID);

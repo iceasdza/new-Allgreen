@@ -42,7 +42,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Shop Single | Canvas</title>
+	<title>All Green</title>
 
 </head>
 
@@ -59,6 +59,8 @@
 			
 			<div class="container clearfix" >
 				<h1 style="color: white;">{{$product->productName}}</h1>
+				<b><span style="color: white;">{{$product->function}}</span></b>
+				
 				<ol class="breadcrumb" >
 					<li><a href="/" style="color: white;">Home</a></li>
 					<li><a href="/catagoryID={{$product->CatagoriesID}}" style="color: white;">Shop</a></li>
@@ -88,7 +90,7 @@
 									<div class="fslider" data-pagi="false" data-arrows="false" data-thumbs="true">
 										<div class="flexslider">
 											<div class="slider-wrap" data-lightbox="gallery">
-												<div class="slide" data-thumb="{{$product->path}}"><a href="{{$product->path}}" title="{{$product->productName}}" data-lightbox="gallery-item"><img src="{{$product->path}}" alt="Pink Printed Dress"></a></div>
+												<div class="slide" data-thumb="{{$product->path}}"><a href="{{$product->path}}" title="{{$product->productName}}" data-lightbox="gallery-item"><img src="{{$product->path}}"></a></div>
 											</div>
 										</div>
 									</div>
@@ -127,13 +129,13 @@
 
 									<ul class="tab-nav clearfix">
 										<li><a href="#tabs-1"><i class="icon-align-justify2"></i><span class="hidden-xs"> Description</span></a></li>
-										<li><a href="#tabs-2"><i class="icon-info-sign"></i><span class="hidden-xs"> Specifications</span></a></li>
+										{{--  <li><a href="#tabs-2"><i class="icon-info-sign"></i><span class="hidden-xs"> Specifications</span></a></li>  --}}
 									</ul>
 
 									<div class="tab-container">
 
 										<div class="tab-content clearfix" id="tabs-1">
-											<p>{{$product->productDes}}</p>
+											{{$product->productDes}}
 										</div>
 										<div class="tab-content clearfix" id="tabs-2">
 

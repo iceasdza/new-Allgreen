@@ -36,6 +36,7 @@
 			@foreach($products as $product)
 			<div class="container clearfix">
 				<h1>{{$product->productName}}</h1>
+					{{$product->function}}
 				<ol class="breadcrumb">
 					<li><a href="/admin">Home</a></li>
 					<li><a href="/admin/catagoriesID={{$product->CatagoriesID}}">Shop</a></li>
@@ -65,7 +66,7 @@
 									<div class="fslider" data-pagi="false" data-arrows="false" data-thumbs="true">
 										<div class="flexslider">
 											<div class="slider-wrap" data-lightbox="gallery">
-												<div class="slide" data-thumb="{{$product->path}}"><a href="{{$product->path}}" title="{{$product->productName}}" data-lightbox="gallery-item"><img src="{{$product->path}}" alt="Pink Printed Dress"></a></div>
+												<div class="slide" data-thumb="{{$product->path}}"><a href="{{$product->path}}" title="{{$product->productName}}" data-lightbox="gallery-item"><img src="{{$product->path}}" ></a></div>
 											</div>
 										</div>
 									</div>

@@ -109,7 +109,7 @@
 									</div>
 									<div class="product-desc center">
 										<div class="product-title"><h5><a href="/catagoriesID={{$product->CatagoriesID}}/productId={{$product->productID}}">{{$product->productName}}</a></h5></div>
-							
+											{{$product->function}}
 									</div>
 									<hr>
 								</div>

@@ -250,6 +250,8 @@
 										<div class="portfolio-desc">
 											<h3>
 												<a href="/catagoriesID={{$product->CatagoriesID}}/productId={{$product->productID}}">{{$product->productName}}</a>
+											
+												<span>{{$product->function}}</span>
 											</h3>
 										</div>
 									</div>
@@ -499,7 +501,7 @@
 						============================================= -->
 						<div class="col_half col_last">
 
-							<section id="google-map" class="gmap" style="height: 410px;"></section>
+							{{--  <section id="google-map" class="gmap" style="height: 410px;"></section>  --}}
 
 
 						</div>

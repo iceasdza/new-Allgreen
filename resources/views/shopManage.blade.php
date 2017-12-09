@@ -60,6 +60,7 @@
 								<input type="hidden" name="catagoryID" value="{{$id}}">
 								<h4>PRODUCT IMAGE</h4> <input class="form-control" type="file" name="img">
 								<h4>PRODUCTNAME</h4> <input type="text" class="form-control" name="prodName" placeholder="Product name" required>
+								<h4>FUNCTION</h4> <input type="text" class="form-control" name="function" placeholder="Function" required>
 								<h4>PRODUCT Description</h4><textarea class="form-control" name="prodDesc" style="resize:none"></textarea>
 								<input class="btn btn-default" type="submit" value="upload file">
 							</form>
