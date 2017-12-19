@@ -10,6 +10,7 @@
 	============================================= -->
 	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic"
 	 rel="stylesheet" type="text/css" />
+	 <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
@@ -44,8 +45,10 @@
 						<div class="swiper-slide" style="background-image: url('images/slider/swiper/7.jpg');">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
+									<div  style="background-color: white;padding: 50px;opacity: 0.8">
 									<h2 data-caption-animate="fadeInUp" style="color:#008020">All green</h2>
-									<p data-caption-animate="fadeInUp" data-caption-delay="200" style="color:#006622">ให้เราดูแลคุณด้วยการให้บริการอย่างมีประสิทธิภาพ ด้วยความจริงใจ</p>
+									<p data-caption-animate="fadeInUp" data-caption-delay="200" style="color:#006622;font-family: Prompt">ให้เราดูแลคุณด้วยการให้บริการอย่างมีประสิทธิภาพ ด้วยความจริงใจ</p>
+										</div>
 								</div>
 							</div>
 						</div>
@@ -53,7 +56,7 @@
 							<div class="container clearfix">
 								<div class="slider-caption">
 									<h2 data-caption-animate="fadeInUp">Great Performance</h2>
-									<p data-caption-animate="fadeInUp" data-caption-delay="200">บริการที่มีคุณภาพและได้รับความไว้วางใจจากลูกค้ามากมาย จากการบริการที่มีคุณภาพของเรา</p>
+									<p data-caption-animate="fadeInUp" data-caption-delay="200" style="font-family: Prompt">บริการที่มีคุณภาพและได้รับความไว้วางใจจากลูกค้ามากมาย จากการบริการที่มีคุณภาพของเรา</p>
 								</div>
 							</div>
 						</div>
@@ -155,10 +158,13 @@
 					<div class="container clearfix">
 
 						<div class="heading-block center">
-							<h2>We are
-								<span>ALL GREEN</span>
-							</h2>
-							<span>TECHNOLOGY.</span>
+							<div >
+								<h2>We are
+									<span>ALL GREEN</span>
+								</h2>
+								<span>TECHNOLOGY.</span>
+							</div>
+
 						</div>
 
 						<div class="col_one_third nobottommargin">
@@ -167,11 +173,13 @@
 									<img src="img/241624.jpg" alt="Why choose Us?">
 								</div>
 								<div class="fbox-desc">
-									<h3>ทำไมต้องเลือกเรา ?
-										<span class="subtitle">เพราะว่าเรา ...</span>
+									<h3 style="font-family: Prompt">ทำไมต้องเลือกเรา ?
+										<span class="subtitle" style="font-family: Prompt">เพราะว่าเรา ...</span>
 									</h3>
-									<p>บริษัทมุ่งเน้นการจัดจำหน่ายและให้บริการด้านการขายแบบครบวงจรด้วยสินค้า คุณภาพสูง โดยทีมงานวิศวกรที่พรั่งพร้อมด้วยประสบการณ์ความรู้และ
+									
+									<p style="font-family: Prompt;color:#2a7c2a ">บริษัทมุ่งเน้นการจัดจำหน่ายและให้บริการด้านการขายแบบครบวงจรด้วยสินค้า คุณภาพสูง โดยทีมงานวิศวกรที่พรั่งพร้อมด้วยประสบการณ์ความรู้และ
 										ความสามารถ เพื่อให้บริการลูกค้า โดยเราได้คัดสรรผลิตภัณฑ์ที่มีคุณภาพ เหมาะสมกับราคาและความต้องการของลูกค้าในทุกกลุ่มตลาด</p>
+							
 								</div>
 							</div>
 						</div>
@@ -182,12 +190,13 @@
 									<img src="img/241625.jpg" alt="Why choose Us?">
 								</div>
 								<div class="fbox-desc">
-									<h3>เป้าหมายของเรา
-										<span class="subtitle">ความต้องการของท่าน คืองานของเรา</span>
+									<h3 style="font-family: Prompt">เป้าหมายของเรา
+										<span class="subtitle" style="font-family: Prompt">ความต้องการของท่าน คืองานของเรา</span>
 									</h3>
-									<p>เมื่อท่าน ต้องการสินค้าในกลุ่ม ขอให้ติดต่อเรา All Green Technologyเป็นผู้นำในการ จัดหา การออกแบบติดตั้งให้คำปรึกษาและให้บริการทุกรูปแบบเพื่อสนับสนุน
+									<p style="font-family: Prompt;color:#2a7c2a">เมื่อท่าน ต้องการสินค้าในกลุ่ม ขอให้ติดต่อเรา All Green Technologyเป็นผู้นำในการ จัดหา การออกแบบติดตั้งให้คำปรึกษาและให้บริการทุกรูปแบบเพื่อสนับสนุน
 										ให้ผู้ใช้บริการนั้นสามาถใช้งานในผลิตภัณฑ์ อย่างมีประสิทธิภาพและคุ้มค่ากับ การลงทุนอย่างสูงสุด รวมถึงการเตรียมความพร้อมในการขายผลิตภัณฑ์เพื่อ
-										ธุรกิจของท่านเติบโตอย่างมั่นคงต่อไปในอนาคต</p>
+										ธุรกิจของท่านเติบโตอย่างมั่นคงต่อไปในอนาคต
+									</p>
 								</div>
 							</div>
 						</div>
@@ -198,13 +207,14 @@
 									<img src="img/241619.jpg" alt="Why choose Us?">
 								</div>
 								<div class="fbox-desc">
-									<h3>พวกเราทำอะไร
-										<span class="subtitle">ในปัจจุบันเทคโนโลยี</span>
+									<h3 style="font-family: Prompt">พวกเราทำอะไร
+										<span class="subtitle" style="font-family: Prompt">ในปัจจุบันเทคโนโลยี</span>
 									</h3>
-									<p>ได้เริ่มเข้ามามีบทบาทในการใช้งานของเราเพิ่มมากขึ้นอย่างต่อเนื่อง GREEN เทคโนโลยี สามารถลดค่าใช้จ่ายต่างๆ ไม่ว่าจะเป็น
+									<p style="font-family: Prompt;color:#2a7c2a">ได้เริ่มเข้ามามีบทบาทในการใช้งานของเราเพิ่มมากขึ้นอย่างต่อเนื่อง GREEN เทคโนโลยี สามารถลดค่าใช้จ่ายต่างๆ ไม่ว่าจะเป็น
 										ค่าพลังงานไฟฟ้าที่ใช้งานหรือค่าบำรุงรักษารวมถึงระบบ รักษาความปลอดภัยให้กับองค์กรธุรกิจปัจจุบันเทคโนโลยีแนวใหม่
 										ช่วยเพิ่มความสามารถในการบริหารจัดการ ให้กับผู้ดูแลระบบให้ง่ายยิ่งขึ้นด้วยการดูแลแบบศูนย์กลาง และยังช่วยสามารถกำหนดโครงสร้างพื้นฐาน
-										ได้อย่างมีประสิทธิภาพ</p>
+										ได้อย่างมีประสิทธิภาพ
+									</p>
 								</div>
 							</div>
 						</div>
@@ -250,7 +260,7 @@
 										<div class="portfolio-desc">
 											<h3>
 												<a href="/catagoriesID={{$product->CatagoriesID}}/productId={{$product->productID}}">{{$product->productName}}</a>
-											
+
 												<span>{{$product->function}}</span>
 											</h3>
 										</div>
@@ -267,7 +277,7 @@
 
 
 
-					<div class="section parallax" style="background-image: url('images/parallax/parallax2.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.3">
+					<div class="section parallax" style="background-image: url('images/parallax/parallax2.JPG'); padding: 100px 0;" data-stellar-background-ratio="0.3">
 						<div class="heading-block center nobottomborder nobottommargin">
 							<h2>"Quality for life."</h2>
 						</div>
@@ -279,7 +289,7 @@
 
 					<div class="heading-block center bottommargin-lg">
 						<h2>Services</h2>
-						<span> ALL GREEN TECHNOLOGY ให้ความสำคัญกับการให้บริการกับลูกค้าทั้งการให้บริการหลังการขาย และการให้ข้อมูลเพื่อการตัดสินใจเลือกซื้อสินค้า
+						<span style="font-family: Prompt;color:#2a7c2a"> ALL GREEN TECHNOLOGY ให้ความสำคัญกับการให้บริการกับลูกค้าทั้งการให้บริการหลังการขาย และการให้ข้อมูลเพื่อการตัดสินใจเลือกซื้อสินค้า
 							เราพร้อมให้คำแนะนำ ด้านพลังงานทดแทน,งานออกแบบระบบ ไฟฟ้าอาคาร,โรงงานระบบแสงสว่าง,ระบบปรับอากาศรวมถึงระบบความปลอดภัยทุกประเภทฯ
 							และตอบคำถามทุกคำถามของท่าน ติดต่อเรา
 						</span>
@@ -501,7 +511,8 @@
 						============================================= -->
 						<div class="col_half col_last">
 
-							{{--  <section id="google-map" class="gmap" style="height: 410px;"></section>  --}}
+							{{--
+							<section id="google-map" class="gmap" style="height: 410px;"></section> --}}
 
 
 						</div>
@@ -519,7 +530,7 @@
 										</a>
 									</div>
 									<h3>Our Headquarters
-										<span class="subtitle">49/146 Moo 5 Phtthamonthon Sai 4 Rd. Thaveewattana, Thaveewattana Bangkok 10210</span>
+										<span class="subtitle" style="font-size: 20px">49/146 Moo 5 Phtthamonthon Sai 4 Rd. Thaveewattana, Thaveewattana Bangkok 10210</span>
 									</h3>
 								</div>
 							</div>
@@ -532,7 +543,7 @@
 										</a>
 									</div>
 									<h3>Speak to Us
-										<span class="subtitle">02-814-0066</span>
+										<span class="subtitle"  style="font-size: 20px">02-814-0066</span>
 									</h3>
 								</div>
 							</div>

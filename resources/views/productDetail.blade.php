@@ -46,7 +46,7 @@
 
 </head>
 
-<body class="stretched">
+<body class="stretched" >
 
 	<!-- Document Wrapper
 	============================================= -->
@@ -55,6 +55,7 @@
 		<!-- Page Title
 		============================================= -->
 		<section id="page-title" style="background-color: #1ABC9C" >
+		<!-- <section id="page-title" style="background-color: black" > -->
 			@foreach($products as $product)
 			
 			<div class="container clearfix" >
@@ -107,7 +108,7 @@
 
 								<!-- Product Single - Short Description
 								============================================= -->
-									<p>{{$product->productDes}}</p>
+									<p style="font-size: 20px">{{$product->productDes}}</p>
 								<!-- Product Single - Meta
 								============================================= -->
 								<div class="panel panel-default product-meta">
@@ -134,7 +135,7 @@
 
 									<div class="tab-container">
 
-										<div class="tab-content clearfix" id="tabs-1">
+										<div class="tab-content clearfix" id="tabs-1" style="font-size: 20px">
 											{{$product->productDes}}
 										</div>
 										<div class="tab-content clearfix" id="tabs-2">

@@ -24,7 +24,7 @@
 
 </head>
 
-<body class="stretched">
+<body class="stretched" style="font-family: Prompt">
 
 	<!-- Document Wrapper
 	============================================= -->
