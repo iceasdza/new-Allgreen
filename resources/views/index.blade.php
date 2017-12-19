@@ -231,7 +231,7 @@
 
 					<div class="heading-block center">
 						<a href="/catagoryID=1">
-							<h2>
+							<h2>CLICK HERE >>
 								<span>View all product</span>
 							</h2>
 						</a>
