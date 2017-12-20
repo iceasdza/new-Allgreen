@@ -10,7 +10,7 @@
 	============================================= -->
 	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic"
 	 rel="stylesheet" type="text/css" />
-	 <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
@@ -45,10 +45,10 @@
 						<div class="swiper-slide" style="background-image: url('images/slider/swiper/7.jpg');">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
-									<div  style="background-color: white;padding: 50px;opacity: 0.8">
-									<h2 data-caption-animate="fadeInUp" style="color:#008020">All green</h2>
-									<p data-caption-animate="fadeInUp" data-caption-delay="200" style="color:#006622;font-family: Prompt">ให้เราดูแลคุณด้วยการให้บริการอย่างมีประสิทธิภาพ ด้วยความจริงใจ</p>
-										</div>
+									<div style="background-color: white;padding: 50px;opacity: 0.8">
+										<h2 data-caption-animate="fadeInUp" style="color:#008020">All green</h2>
+										<p data-caption-animate="fadeInUp" data-caption-delay="200" style="color:#006622;font-family: Prompt">ให้เราดูแลคุณด้วยการให้บริการอย่างมีประสิทธิภาพ ด้วยความจริงใจ</p>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -158,7 +158,7 @@
 					<div class="container clearfix">
 
 						<div class="heading-block center">
-							<div >
+							<div>
 								<h2>We are
 									<span>ALL GREEN</span>
 								</h2>
@@ -176,10 +176,10 @@
 									<h3 style="font-family: Prompt">ทำไมต้องเลือกเรา ?
 										<span class="subtitle" style="font-family: Prompt">เพราะว่าเรา ...</span>
 									</h3>
-									
+
 									<p style="font-family: Prompt;color:#2a7c2a ">บริษัทมุ่งเน้นการจัดจำหน่ายและให้บริการด้านการขายแบบครบวงจรด้วยสินค้า คุณภาพสูง โดยทีมงานวิศวกรที่พรั่งพร้อมด้วยประสบการณ์ความรู้และ
 										ความสามารถ เพื่อให้บริการลูกค้า โดยเราได้คัดสรรผลิตภัณฑ์ที่มีคุณภาพ เหมาะสมกับราคาและความต้องการของลูกค้าในทุกกลุ่มตลาด</p>
-							
+
 								</div>
 							</div>
 						</div>
@@ -218,7 +218,6 @@
 								</div>
 							</div>
 						</div>
-
 						<div class="clear"></div>
 
 					</div>
@@ -227,6 +226,56 @@
 				<div class="divider">
 					<i class="icon-circle"></i>
 				</div>
+
+				<section id="section-refference" class="page-section">
+
+					<div class="container clearfix">
+
+						<div class="heading-block center">
+							<h2>
+								<span>OUR CUSTOMER</span>
+							</h2>
+						</div>
+								<div id="oc-images" class="owl-carousel image-carousel carousel-widget" data-margin="20" data-nav="true" data-pagi="false"
+								 data-items-xxs="2" data-items-xs="3" data-items-sm="4" data-items-md="5">
+
+									<div class="oc-item">
+										<img src="images/customer/1.jpg" alt="Image 1">
+									</div>
+									<div class="oc-item">
+										<img src="images/customer/2.jpg" alt="Image 1">
+									</div>
+									<div class="oc-item">
+										<img src="images/customer/3.jpg" alt="Image 1">
+									</div>
+									<div class="oc-item">
+										<img src="images/customer/4.jpg" alt="Image 1">
+									</div>
+									<div class="oc-item">
+										<img src="images/customer/5.jpg" alt="Image 1">
+									</div>
+									<div class="oc-item">
+										<img src="images/customer/6.jpg" alt="Image 1">
+									</div>
+									<div class="oc-item">
+										<img src="images/customer/7.jpg" alt="Image 1">
+									</div>
+									<div class="oc-item">
+										<img src="images/customer/8.jpg" alt="Image 1">
+									</div>
+									<div class="oc-item">
+										<img src="images/customer/9.jpg" alt="Image 1">
+									</div>
+									<div class="oc-item">
+										<img src="images/customer/10.jpg" alt="Image 1">
+									</div>
+						</div>
+					</div>
+				</section>
+				<div class="divider">
+					<i class="icon-circle"></i>
+				</div>
+
 				<section id="section-team" class="page-section topmargin-lg">
 
 					<div class="heading-block center">
@@ -543,7 +592,7 @@
 										</a>
 									</div>
 									<h3>Speak to Us
-										<span class="subtitle"  style="font-size: 20px">02-814-0066</span>
+										<span class="subtitle" style="font-size: 20px">02-814-0066</span>
 									</h3>
 								</div>
 							</div>
@@ -620,7 +669,7 @@
 					icon: {
 						image: "images/icons/map-icon-red.png",
 						iconsize: [32, 39],
-						iconanchor: [32,39]
+						iconanchor: [32, 39]
 					}
 				}
 			],
