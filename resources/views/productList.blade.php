@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
+
 <head>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -7,7 +8,9 @@
 
 	<!-- Stylesheets
 	============================================= -->
-	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic"
+	 rel="stylesheet" type="text/css" />
+	 <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
 	<link rel="stylesheet" href="{{asset('css/bootstrap.css')}}" type="text/css" />
 	<link rel="stylesheet" href="{{asset('style.css')}}" type="text/css" />
 	<link rel="stylesheet" href="{{asset('css/dark.css')}}" type="text/css" />
@@ -26,57 +29,68 @@
 
 <body class="stretched">
 	<header id="header" class="full-header">
-	
-				<div id="header-wrap">
-	
-					<div class="container clearfix">
-	
-						<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-	
-						<!-- Logo
-						============================================= -->
-						<div id="logo">
-							<a href="/" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/allgreenlogo.png" alt="Canvas Logo"></a>
-							<a href="/" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
-						</div><!-- #logo end -->
-	
-						<!-- Primary Navigation
-						============================================= -->
-						<nav id="primary-menu">
-	
-							<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1500">
-								<li><a href="/" data-href="#home"><div>Home</div></a></li>
-							</ul>
-	
-	
-						</nav><!-- #primary-menu end -->
-	
-					</div>
-	
+
+		<div id="header-wrap">
+
+			<div class="container clearfix">
+
+				<div id="primary-menu-trigger">
+					<i class="icon-reorder"></i>
 				</div>
-	
-			</header>
+
+				<!-- Logo
+						============================================= -->
+				<div id="logo">
+					<a href="/" class="standard-logo" data-dark-logo="images/logo-dark.png">
+						<img src="images/allgreenlogo.png" alt="Canvas Logo">
+					</a>
+					<a href="/" class="retina-logo" data-dark-logo="images/logo-dark@2x.png">
+						<img src="images/logo@2x.png" alt="Canvas Logo">
+					</a>
+				</div>
+				<!-- #logo end -->
+
+				<!-- Primary Navigation
+						============================================= -->
+				<nav id="primary-menu">
+
+					<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1500">
+						<li>
+							<a href="/" data-href="#home">
+								<div>Home</div>
+							</a>
+						</li>
+					</ul>
+
+
+				</nav>
+				<!-- #primary-menu end -->
+
+			</div>
+
+		</div>
+
+	</header>
 	<!-- Document Wrapper
 	============================================= -->
-	<div id="wrapper" class="clearfix" >
+	<div id="wrapper" class="clearfix">
 
 		<!-- Header
 		============================================= -->
-	
+
 
 		<!-- Page Title
 		============================================= -->
 		<section id="page-title" style="background-color: #1ABC9C">
 
-			<div class="container clearfix" >
-				<h1 style="color:white">
-					@foreach($catagory as $deatail)
-					{{$deatail->catagoriesName}}
-					@endforeach
+			<div class="container clearfix">
+				<h1 style="color:white;font-family: Prompt">
+					@foreach($catagory as $deatail) {{$deatail->catagoriesName}} @endforeach
 				</h1>
-				</div>
+			</div>
 
-		</section><!-- #page-title end -->
+		</section>
+		<!-- #page-title end -->
 
 		<!-- Content
 		============================================= -->
@@ -93,80 +107,107 @@
 						<!-- Shop
 						============================================= -->
 						<div id="shop" class="shop product-3 clearfix">
-
 							@foreach($products as $product)
-							<div class="product clearfix">
-									<div class="product-image">
-										<div class="fslider" data-arrows="false">
-											<div class="flexslider">
-												<div class="slider-wrap">
-													<div class="slide" ><a href="/catagoriesID={{$product->CatagoriesID}}/productId={{$product->productID}}" ><img src="{{$product->path}}" alt="{{$product->productName}}"></a></div>
+							{{--  <div class="product clearfix">
+								<div class="product-image">
+									<div class="fslider" data-arrows="false">
+										<div class="flexslider">
+											<div class="slider-wrap">
+												<div class="slide">
+													<a href="/catagoriesID={{$product->CatagoriesID}}/productId={{$product->productID}}">
+														<img src="{{$product->path}}" alt="{{$product->productName}}">
+													</a>
 												</div>
 											</div>
 										</div>
-										<div class="product-overlay">
-								</div>
 									</div>
-									<div class="product-desc center">
-										<div class="product-title"><h5><a href="/catagoriesID={{$product->CatagoriesID}}/productId={{$product->productID}}">{{$product->productName}}</a></h5></div>
-											{{$product->function}}
+									<div class="product-overlay">
 									</div>
-									<hr>
 								</div>
-
+								<div class="product-desc center">
+									<div class="product-title">
+										<h5>
+											<a href="/catagoriesID={{$product->CatagoriesID}}/productId={{$product->productID}}">{{$product->productName}}</a>
+										</h5>
+									</div>
+									{{$product->function}}
+								</div>
+								<hr>
+							</div>  --}}
+						  <div  class="col-sm-6 col-md-4">
+							<div class="thumbnail">
+							  <img data-src="holder.js/300x200" alt="{{$product->productName}}" src="{{$product->path}}"  style="display: block;height: 200px;width: 300px">
+							  <div class="caption">
+								<h3 style="color:#2a7c2a">{{$product->productName}}</h3>
+								<p>{{$product->function}}</p>
+								 <a href="/catagoriesID={{$product->CatagoriesID}}/productId={{$product->productID}}" class="btn btn-default" role="button">Detail</a>
+							  </div>
+							</div>
+						  </div>
 							@endforeach
-						</div><!-- #shop end -->
+						</div>
+						<!-- #shop end -->
 
-					</div><!-- .postcontent end -->
+					</div>
+					<!-- .postcontent end -->
 
 					<!-- Sidebar
 					============================================= -->
 					<div class="sidebar nobottommargin">
 						<div class="sidebar-widgets-wrap">
 
-							<div class="widget widget_links clearfix">
+							<div style="font-family: Prompt" class="widget widget_links clearfix">
 
-								<h4>Shop Categories</h4>
+								<h4 >Shop Categories</h4>
 								<ul>
 									@foreach($items as $item)
-									<li><a href="/catagoryID={{$item->CatagoriesID}}">{{$item->catagoriesName}}</a></li>
-									<hr>
-									@endforeach
+									<li>
+										<a href="/catagoryID={{$item->CatagoriesID}}">{{$item->catagoriesName}}</a>
+									</li>
+									<hr> @endforeach
 								</ul>
 
 							</div>
 
 
-					
+
 						</div>
-					</div><!-- .sidebar end -->
+					</div>
+					<!-- .sidebar end -->
 
 				</div>
 
 			</div>
 
-		</section><!-- #content end -->
+		</section>
+		<!-- #content end -->
 
-	</div><!-- #wrapper end -->
+	</div>
+	<!-- #wrapper end -->
 	<footer id="footer" class="dark">
 		<div id="copyrights">
-			
-							<div class="container clearfix">
-			
-								<div class="col_half">
-									Copyrights ©2011 ALLGREEN Technology Co.,Ltd.<br>
-								</div>
-			
-								<div class="col_half col_last tright">
-									<div class="clear"></div>
-			
-									<i class="icon-envelope2"></i> Email : info@allgreenthai.com <span class="middot">&middot;</span> <i class="icon-headphones"></i>  02-814-0066
-								</div>
-			
-							</div>
-			
-						</div><!-- #copyrights end -->
-	</footer><!-- #footer end -->
+
+			<div class="container clearfix">
+
+				<div class="col_half">
+					Copyrights ©2011 ALLGREEN Technology Co.,Ltd.
+					<br>
+				</div>
+
+				<div class="col_half col_last tright">
+					<div class="clear"></div>
+
+					<i class="icon-envelope2"></i> Email : info@allgreenthai.com
+					<span class="middot">&middot;</span>
+					<i class="icon-headphones"></i> 02-814-0066
+				</div>
+
+			</div>
+
+		</div>
+		<!-- #copyrights end -->
+	</footer>
+	<!-- #footer end -->
 
 	<!-- Go To Top
 	============================================= -->
@@ -182,4 +223,5 @@
 	<script type="text/javascript" src="{{asset('js/functions.js')}}"></script>
 
 </body>
+
 </html>
