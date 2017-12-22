@@ -11,7 +11,7 @@
                     Create catagories
                     <form  method="POST" action="/admin">
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <h4>Catagory name</h4> <input type="text" name="catagoryName" class="form-control">
+                    <h4>Catagory name</h4> <input type="text" name="catagoryName" class="form-control" required>
                     {{--  <h4>Catagory descriprion</h4> <input type="text" name="catagoryDes" class="form-control">  --}}
                     <br>
                     <input class="btn btn-default" type="submit" value="Add catagory">

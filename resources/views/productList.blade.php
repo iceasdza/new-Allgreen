@@ -138,7 +138,7 @@
 							<div class="thumbnail">
 							  <img data-src="holder.js/300x200" alt="{{$product->productName}}" src="{{$product->path}}"  style="display: block;height: 200px;width: 300px">
 							  <div class="caption">
-								<h3 style="color:#2a7c2a;white-space: nowrap;overflow:hidden;text-overflow: ellipsis;"">{{$product->productName}}</h3>
+								<a href="/catagoriesID={{$product->CatagoriesID}}/productId={{$product->productID}}"><h3 style="color:#2a7c2a;white-space: nowrap;overflow:hidden;text-overflow: ellipsis;" alt="{{$product->productName}}">{{$product->productName}}</h3></a>
 								<p style="white-space: nowrap;overflow:hidden;text-overflow: ellipsis;">{{$product->function}}</p>
 								 <a href="/catagoriesID={{$product->CatagoriesID}}/productId={{$product->productID}}" class="btn btn-default" role="button">Detail</a>
 							  </div>
