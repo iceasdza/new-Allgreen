@@ -84,7 +84,9 @@
 
 								<!-- Product Single - Short Description
 								============================================= -->
-									<p>{{$product->productDes}}</p>
+																	<textarea style="overflow:hidden;resize: auto;height:300px;border: none" readonly>
+									{{$product->productDes}}
+								</textarea>
 								<!-- Product Single - Meta
 								============================================= -->
 								<div class="panel panel-default product-meta">
@@ -111,9 +113,9 @@
 
 									<div class="tab-container">
 
-										<div class="tab-content clearfix" id="tabs-1">
-											<p>{{$product->productDes}}</p>
-										</div>
+								<textarea style="overflow:hidden;resize: auto;height:300px;border: none" readonly>
+									{{$product->productDes}}
+								</textarea>
 										<div class="tab-content clearfix" id="tabs-2">
 
 											<!-- <table class="table table-striped table-bordered">

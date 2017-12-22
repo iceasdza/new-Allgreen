@@ -108,7 +108,9 @@
 
 								<!-- Product Single - Short Description
 								============================================= -->
-									<p style="font-size: 20px">{{$product->productDes}}</p>
+								<textarea style="overflow:hidden;resize: auto;height:300px;border: none" readonly>
+									{{$product->productDes}}
+								</textarea>
 								<!-- Product Single - Meta
 								============================================= -->
 								<div class="panel panel-default product-meta">
@@ -136,7 +138,10 @@
 									<div class="tab-container">
 
 										<div class="tab-content clearfix" id="tabs-1" style="font-size: 20px">
-											{{$product->productDes}}
+											<!-- {{$product->productDes}} -->
+											<textarea style="overflow:hidden;resize: auto;height:300px;border: none" readonly>
+												{{$product->productDes}}
+											</textarea>
 										</div>
 										<div class="tab-content clearfix" id="tabs-2">
 

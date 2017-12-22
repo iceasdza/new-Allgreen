@@ -45,7 +45,7 @@
 						<img src="images/allgreenlogo.png" alt="Canvas Logo">
 					</a>
 					<a href="/" class="retina-logo" data-dark-logo="images/logo-dark@2x.png">
-						<img src="images/logo@2x.png" alt="Canvas Logo">
+						<img src="images/allgreenlogo.png" alt="Canvas Logo">
 					</a>
 				</div>
 				<!-- #logo end -->
@@ -139,7 +139,7 @@
 							  <img data-src="holder.js/300x200" alt="{{$product->productName}}" src="{{$product->path}}"  style="display: block;height: 200px;width: 300px">
 							  <div class="caption">
 								<h3 style="color:#2a7c2a">{{$product->productName}}</h3>
-								<p>{{$product->function}}</p>
+								<p style="overflow:hidden;;text-overflow: ellipsis;">{{$product->function}}</p>
 								 <a href="/catagoriesID={{$product->CatagoriesID}}/productId={{$product->productID}}" class="btn btn-default" role="button">Detail</a>
 							  </div>
 							</div>
