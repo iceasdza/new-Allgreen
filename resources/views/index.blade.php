@@ -240,7 +240,7 @@
 								 data-items-xxs="2" data-items-xs="3" data-items-sm="4" data-items-md="5">
 
 									<div class="oc-item">
-										<img src="images/customer/1.jpg" alt="Image 1">
+										<img src="images/customer/11.jpg" alt="Image 1">
 									</div>
 									<div class="oc-item">
 										<img src="images/customer/2.jpg" alt="Image 1">
@@ -268,6 +268,9 @@
 									</div>
 									<div class="oc-item">
 										<img src="images/customer/10.jpg" alt="Image 1">
+									</div>
+									<div class="oc-item">
+										<img src="images/customer/1.jpg" alt="Image 1">
 									</div>
 						</div>
 					</div>
